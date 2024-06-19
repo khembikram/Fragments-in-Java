@@ -3,24 +3,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EEE8CD"
-    tools:context=".SecondFragment">
+    android:background="@color/material_dynamic_neutral30"
+    tools:context=".FourthFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:id="@+id/text_frag2"
-        android:textColor="@color/black"
+        android:id="@+id/text_frag4"
         android:textSize="40sp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Second Fragment" />
-    
+        android:textColor="@color/white"
+        android:text="Fourth Fragment" />
+
+
     <Button
-        android:layout_marginTop="100dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/second_btn"
         android:text="Click Me!"
+        android:id="@+id/fourth_btn"
+        android:layout_marginTop="100dp"
         />
-
 </FrameLayout>
