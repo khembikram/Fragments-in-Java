@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/setting"
+        android:title="Settings">
+
+    </item>
+
+    <item android:id="@+id/add"
+        android:title="Add"
+        android:icon="@android:drawable/ic_menu_send"
+        app:showAsAction="always"
+        >
+
+    </item>
+
+    <item android:id="@+id/edit"
+        android:title="Edit"
+        android:icon="@android:drawable/btn_plus"
+        >
+
+    </item>
+
+    <item android:id="@+id/delete"
+        android:title="Delete">
+
+    </item>
+</menu>
